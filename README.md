@@ -11,17 +11,30 @@ El objetivo de este proyecto es automatizar la validación de la API de Rick and
 - Manejo de errores (por ejemplo, recurso no encontrado).
 
 ## Requisitos
-- **Java 8 o superior**
+- **Java 21**
 - **Maven**
 - **IntelliJ IDEA** (opcional, pero recomendado)
 
 ## Tecnologías Utilizadas
-- **Java 11+**
+- **Java 21**
 - **Maven**
 - **Rest-Assured**
 - **TestNG**
 - **Allure Reports** (para generación de reportes)
 - **JSON Schema Validator**
+
+## Ajustar la versión de Java
+Si deseas ejecutar el proyecto con una versión de Java diferente a la 21, modifica las propiedades del `pom.xml`:
+
+```xml
+<properties>
+    <maven.compiler.source>Tu-versión</maven.compiler.source>
+    <maven.compiler.target>Tu-versión</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+```
+        
+Luego, ejecuta `mvn clean install` para recompilar el proyecto con la nueva versión de Java.
 
 ## Configuración
 
