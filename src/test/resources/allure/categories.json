@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Pruebas Funcionales",
+    "matchedStatuses": ["failed", "passed"],
+    "messageRegex": ".*Funcionales.*"
+  },
+  {
+    "name": "Validación de Esquema JSON",
+    "matchedStatuses": ["failed", "passed"],
+    "messageRegex": ".*Esquema JSON.*"
+  },
+  {
+    "name": "Manejo de Errores",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*Manejo de Errores.*"
+  },
+  {
+    "name": "Pruebas de Rendimiento",
+    "matchedStatuses": ["failed", "passed"],
+    "messageRegex": ".*Rendimiento.*"
+  }
+]
